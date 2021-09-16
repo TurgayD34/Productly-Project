@@ -1,0 +1,299 @@
+/* Start Navigation */
+#navbar{
+    width: 1400px;
+    height: 78px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.logo{
+    margin-top: 22px;
+    margin-left: 143.92px;
+}
+.logo-name{
+    margin-left: 12.06px;
+    margin-top: 25px;
+    margin-bottom: 24.03px;
+}
+.nav-list{
+    width: 350px;
+    height: 28px;
+    margin-left: 320.73px;
+    margin-top: 24px;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* Yazilar basa dayanmiyor sonda kaliyor bunu hocaya sor. */
+}
+.nav-list a{
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 28px;
+    /* identical to box height, or 200% */
+    color: #2F281E;
+}
+.signIn{
+    width: 102px;
+    height: 46px;
+    margin-top: 15px;
+    margin-left: 29px;
+    border: 1px solid #BCD0E5;
+    box-sizing: border-box;
+    border-radius: 4px;
+    background-color: #fff;
+}
+.signIn a{
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+    color: #173A56;
+}
+.signUp{
+    width: 110px;
+    height: 46px;
+    margin-top: 15px;
+    margin-left: 14px;
+    background: #FF9900;
+    border-radius: 4px;
+    border: none;
+}
+.signUp a{
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+    color: #FFFFFF;
+}
+/* End Navigation */
+
+/* Start Header */
+.header-title{
+    max-width: 518px;
+    width: 100%;
+    height: 108px;
+    margin-top: 113px;
+    margin-left: 145px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 44px;
+    line-height: 54px;
+    /* or 123% */
+    color: #2F281E;
+}
+.header-info{
+    max-width: 458px;
+    width: 100%;
+    height: 95px;
+    margin-top: 30px;
+    margin-left: 145px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    /* or 156% */
+    color: #544837;
+}
+.header-btn{
+    width: 175px;
+    height: 53px;
+    margin-left: 145px;
+    margin-top: 45px;
+    background: #FF9900;
+    border-radius: 4px;
+    border: none;
+}
+.header-btn a{
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+    color: #FFFFFF;
+}
+.fas{
+    margin-left: 30.5px;
+    color: #FF9900;
+    border-radius: 1.125px;
+}
+.header-watch-btn{
+    border: none;
+    background-color: #fff;
+}
+.header-watch-btn a{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+    text-decoration-line: underline;
+    color: #FF9900;
+}
+.header-img{
+    margin-top: 30px;
+    margin-left: 3px;
+    margin-right: 129.65px;
+    display: flex;
+    justify-content: space-between;
+}
+section{
+    display: inline-block;
+}
+/* End Header */
+
+/* Main */
+    /* Feature */
+#feature h2{
+    max-width: 539px;
+    width: 100%;
+    height: 108px;
+    margin-top: 111.17px;
+    margin-left: 439px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 54px;
+    text-align: center;
+    color: #2F281E;
+}
+.feature-cards{
+    width: 1095px;
+    height: 204px;
+    margin-top: 54px;
+    margin-left: 161px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.cards{
+    width: 240px;
+    height: 204px;
+}
+.cards h4{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 33px;
+    /* identical to box height */
+    color: #2F281E;
+}
+.cards p{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+    color: #544837;
+}
+.feature-signUp{
+    width: 175px;
+    height: 53px;
+    border: 1px solid black;
+    margin-top: 34px;
+    margin-left: 621px;
+    background: #FF9900;
+    border-radius: 4px;
+}
+.feature-signUp a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+    color: #FFFFFF;
+}
+.feature-div{
+    width: 1400px;
+    height: 389px;
+    background: linear-gradient(179.61deg, rgba(255, 229, 210, 0.629261) 0.33%, rgba(100, 93, 82, 0) 99.67%);
+}
+/* Arka plan background nasil yerlestirilecek biraaz karisik bunu hocaya sor. */
+    /* End Feature */
+    /* Effortless Validation */
+#effortless{
+    max-width: 1110px;
+    width: 100%;
+    height: 574px;
+    margin-top: 120px;
+    margin-left: 145px;
+    font-family: 'Poppins', sans-serif;
+}
+.effortless-text{
+    width: 486px;
+    height: 531px;
+}
+.effortless-text h5{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+    color: #544837;
+}
+.effortless-text h3{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 54px;
+    /* identical to box height */
+    color: #2F281E;
+}
+.effortless-text p{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+    color: #544837;
+}
+.effortless-text-box{
+    width: 486px;
+    height: 90px;
+}
+.effortless-text-box h4{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 26px;
+    /* identical to box height, or 162% */
+    color: #2F281E;
+    margin: 0;
+}
+.effortless-text-box p{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+    color: #544837;
+}
+.effortless-img{
+    margin-left: 40px;
+    /* i used margin left 104px but it did not work and i changed the margin. */
+}
+    /* End Effortless Validation */
+    /* Product Manager */
+    /* End Product Manager */
+/* End Main */
+/* Start Footer */
+/* End Footer */
