@@ -1,4 +1,4 @@
-/* Start Navigation */
+/* Navigation */
 #navbar{
     width: 1400px;
     height: 78px;
@@ -6,6 +6,8 @@
     flex-wrap: wrap;
 }
 .logo{
+    width: 30px;
+    height: 30px;
     margin-top: 22px;
     margin-left: 143.92px;
 }
@@ -76,7 +78,7 @@
 }
 /* End Navigation */
 
-/* Start Header */
+/* Header */
 .header-title{
     max-width: 518px;
     width: 100%;
@@ -124,7 +126,7 @@
     /* identical to box height */
     color: #FFFFFF;
 }
-.fas{
+.fa-play{
     margin-left: 30.5px;
     color: #FF9900;
     border-radius: 1.125px;
@@ -269,6 +271,7 @@ section{
 .effortless-text-box{
     width: 486px;
     height: 90px;
+    margin-top: 25px;
 }
 .effortless-text-box h4{
     font-style: normal;
@@ -288,12 +291,214 @@ section{
     color: #544837;
 }
 .effortless-img{
-    margin-left: 40px;
+    margin-left: 60px;
+    width: 520px;
+    height: 574px;
     /* i used margin left 104px but it did not work and i changed the margin. */
 }
     /* End Effortless Validation */
     /* Product Manager */
+#productManager{
+    max-width: 1121px;
+    width: 100%;
+    height: 101px;
+    margin-top: 101px;
+    margin-left: 144px;
+    font-family: 'Poppins', sans-serif;
+}
+.productManager-img{
+    width: 535px;
+    height: 521px;
+    margin-right: 80px; /* Degistirilecbilinir */
+}
+.productManager-text{
+    width: 486px;
+    height: 427px;
+}
+.productManager-text h5{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+    color: #544837;
+}
+.productManager-text h3{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 54px;
+    /* identical to box height */
+    color: #2F281E;
+}
+.productManager-text p{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+    color: #544837;
+}
+.productManager-text-box{
+    width: 430px;
+    height: 52px;
+    margin-top: 30px;
+}
+.fa-check-square{
+    color: #FF9900;
+    font-size: 35px;
+    float: left;
+    margin-right: 30px;
+}
+.productManager-text-box p{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+    color: #544837; 
+}
     /* End Product Manager */
+    /* Marketers */
+#marketers{
+    max-width: 1110px;
+    width: 100%;
+    height: 609px;
+    margin-top: 104px;
+    margin-left: 147px;
+    font-family: 'Poppins', sans-serif;
+}
+.marketers-text{
+    width: 486px;
+    height: 181px;
+}
+.marketers-text h5{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+    color: #544837;
+}
+.marketers-text h3{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 54px;
+    /* identical to box height */
+    color: #2F281E;
+}
+.marketers-text p{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+    color: #544837;
+}
+.marketers-text-box{
+    width: 486px;
+    height: 90px;
+}
+.marketers-text-box h4{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 26px;
+    /* identical to box height, or 162% */
+    color: #2F281E;
+}
+.marketers-text-box p{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+    color: #544837;
+}
+.marketers-img{
+    width: 542px;
+    height: 609px;
+    margin-left: 70px;
+}
+    /* End Marketers */
 /* End Main */
-/* Start Footer */
+/* Footer */
+#footer{
+    width: 1109px;
+    height: 308px;
+    margin-top: 146px;
+    margin-left: 106px;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Poppins', sans-serif;
+}
+.footer-logo{
+    width: 30px;
+    height: 30px;
+    height: 102px;
+}
+.footer-logo-name{
+    margin-left: 12px;
+}
+.footer-quick-links{
+    margin-left: 126px;
+    margin-bottom: 83px;
+    list-style-type: none;
+}
+.footer-quick-links a{
+    text-decoration: none;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 35px;
+    /* or 219% */
+    color: #544837;
+}
+.footer-legalStuff-list{
+    margin-left: 129px;
+    margin-bottom: 83px;
+    list-style-type: none;
+}
+.footer-legalStuff-list a{
+    text-decoration: none;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 35px;
+    /* or 219% */
+    color: #544837;
+}
+.footer--box{
+    width: 325px;
+    height: 48px;
+    border: 1px solid #BCD0E5;
+    font-family: 'Times New Roman', Times, serif;
+    /* In the design used font-family 'Gotham' i searched from int but i should pay money so i just used this font */
+    font-size: 20px;
+    line-height: 30px;
+    /* or 150% */
+    color: #2F281E;
+    margin-left: 70px;
+}
+.footer-signUp{
+    width: 131px;
+    height: 39px;
+    margin-left: 70px;
+    margin-top: 21px;
+    list-style-type: none;
+    background: #FF9900;
+    border-radius: 4px;
+    border: none;
+}
+.footer-signUp a{
+    text-decoration: none;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+    text-align: center;
+    color: #FFFFFF;
+}
 /* End Footer */
